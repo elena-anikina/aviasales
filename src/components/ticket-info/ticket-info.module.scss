@@ -1,0 +1,29 @@
+@import 'src/components/app/variables';
+
+.one {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.infoTitle {
+  display: flex;
+  width: 40%;
+  align-self: flex-end;
+  font-size: $fontSize;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: $fontFamily;
+  color: $ticketHeadlinesColor;
+}
+
+.info {
+  display: flex;
+  width: 40%;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  font-family: $fontFamily;
+  color: $fontColor;
+}

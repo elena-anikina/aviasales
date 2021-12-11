@@ -1,0 +1,76 @@
+@import 'src/components/app/variables';
+
+.checkbox {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+input[type='checkbox'] + span {
+  align-self: center;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  border-radius: 2px;
+  cursor: pointer;
+  background: $white;
+  border: 1px solid #9abbce;
+}
+
+input[type='checkbox']:checked + span {
+  width: 20px !important;
+  height: 20px !important;
+  background: center / contain no-repeat url(./checkbox.png);
+  background-size: 12px 8px;
+  border-radius: 2px;
+  border: 1px solid $blue;
+}
+
+.text {
+  color: $fontColor;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.textMob {
+  color: $fontColor;
+  display: none;
+}
+
+@media (max-width: 650px) {
+  input[type='checkbox'] + span {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkbox {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin: 0px;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .textMob {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    text-align: center !important;
+    bottom: -5px;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

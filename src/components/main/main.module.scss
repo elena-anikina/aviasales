@@ -1,0 +1,11 @@
+.main {
+  width: 65%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+  .main {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
