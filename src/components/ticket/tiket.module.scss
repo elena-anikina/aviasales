@@ -1,5 +1,13 @@
 @import 'src/components/app/variables';
 
+.visible {
+  display: flex;
+}
+
+.invisible {
+  display: none;
+}
+
 .ticket {
   display: flex;
   width: 100%;

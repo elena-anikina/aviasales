@@ -12,4 +12,16 @@
   font-family: $fontFamily;
   color: $white;
   background-color: $blue;
+  cursor: pointer;
+}
+
+.noTicketsMessage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: $fontFamily;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 0 auto;
+  color: $fontColor;
 }

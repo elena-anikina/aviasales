@@ -1,0 +1,8 @@
+@import 'src/components/app/variables';
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  color: $blue;
+  margin-top: 40px;
+}

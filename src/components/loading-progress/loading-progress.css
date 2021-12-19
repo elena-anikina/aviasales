@@ -1,0 +1,17 @@
+.loadingProgress-bg {
+  height: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+
+.LoadingProgress-inner {
+  height: 100%;
+  background-color: #2196f3;
+  border-radius: inherit;
+  text-align: right;
+  transition: width 1s ease-in-out;
+}
